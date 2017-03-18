@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务一：零基础HTML编码</title>
+</head>
+<body>
+    <h1>这是一个很大的网站！</h1>
+    <ul>
+        <li><a href="#">通道一</a></li>
+        <li><a href="#">通道二</a></li>
+        <li><a href="#">通道三</a></li>
+        <li><a href="#">通道四</a></li>
+    </ul>
+    <h2>生命在于什么？</h2>
+    <h2>生命在于运动！</h2>
+    <span>SHINING</span><span>2017年03月18日</span>
+    <p>这是一段要写很多内容的段落，为了让布局好看点，所以我得使劲的编点什么上去，我们来聊聊应该怎样才能高效学习吧！我觉得嘛，首先时间上要连贯，不能学半小时又跑去干别的事，接着回来又学，这样刚学到的新知识可能转眼就忘记了。还有，学习一定要做笔记，反正我是把学到的、理解的、不理解的、怕忘的都记在我的笔记上，是软件笔记哦，不是显示中的笔记本，要是用笔记本的话，我觉得太浪费抄写时间了，现在又不是练字的时候。</p>
+    <p>来到第二段了，好烦啊，我怎么可能编这么多嘛，我就随便敲点什么算了！啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊大多数哇啊阿达啊啊还有很长很长，然后就
+        <a href="http://www.baidu.com/">进到了一个链接，链接到http://www.baidu.com吧，听说这个网站是用来测网速的</a>，好啦，继续瞎遍 哇哇哇哇哇哇哇哇哇哇哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢</p>
+    <p>我觉得应该差不多了，来张图片吧</p>
+    <img src="http://res.vmallres.com/pimages/tms/2017022205561605031201.jpg" alt="我就爱用华为的东西~">
+    <p>又到了瞎编的时候了，上面是我转的华为商城的图片，不知道咋的，就是觉得华为的东西怎么也得买，也得用吧，这算不算打广告啊？另外我一直很好奇像img这种但标签<strong>到底需不需要闭合呢？！</strong>我看到有的地方写这HTML5标准必须所有标签的闭合，但是知乎上面又有人说在H5标准中，有些标签的标准恰恰就是不用闭合的，好纠结啊！！！！！！！！！！！！！！！！！！！！！！！！！！！！突然想发一段粗体的文字<b>啦啦啦啦啦啦啦啦啦啦啦啦啦lalalalalalalalalalalalala这里的文字是用b标签的，前面那个粗体是strong，听说b标签不标准？这我就不管了</b>所以我打算插个链接<a>你好呀！</a></p>
+    <p>莫名到下一段了，我就不写了</p>
+    <h2>下一篇文章！</h2>
+    <h2>有时候复制粘贴很有用！</h2>
+    <span>SHINING</span><span>2017年03月18日</span>
+    <p>这是一段要写很多内容的段落，为了让布局好看点，所以我得使劲的编点什么上去，我们来聊聊应该怎样才能高效学习吧！我觉得嘛，首先时间上要连贯，不能学半小时又跑去干别的事，接着回来又学，这样刚学到的新知识可能转眼就忘记了。还有，学习一定要做笔记，反正我是把学到的、理解的、不理解的、怕忘的都记在我的笔记上，是软件笔记哦，不是显示中的笔记本，要是用笔记本的话，我觉得太浪费抄写时间了，现在又不是练字的时候。</p>
+    <p>来到第二段了，好烦啊，我怎么可能编这么多嘛，我就随便敲点什么算了！啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哇啊啊啊啊啊啊啊啊大多数哇啊阿达啊啊还有很长很长，然后就
+        <a href="http://www.baidu.com/">进到了一个链接，链接到http://www.baidu.com吧，听说这个网站是用来测网速的</a>，好啦，继续瞎遍 哇哇哇哇哇哇哇哇哇哇哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢</p>
+    <p>我觉得应该差不多了，来张图片吧</p>
+    <img src="http://res.vmallres.com/pimages/tms/2017022205561605031201.jpg" alt="我就爱用华为的东西~">
+    <p>又到了瞎编的时候了，上面是我转的华为商城的图片，不知道咋的，就是觉得华为的东西怎么也得买，也得用吧，这算不算打广告啊？另外我一直很好奇像img这种但标签<strong>到底需不需要闭合呢？！</strong>我看到有的地方写这HTML5标准必须所有标签的闭合，但是知乎上面又有人说在H5标准中，有些标签的标准恰恰就是不用闭合的，好纠结啊！！！！！！！！！！！！！！！！！！！！！！！！！！！！突然想发一段粗体的文字<b>啦啦啦啦啦啦啦啦啦啦啦啦啦lalalalalalalalalalalalala这里的文字是用b标签的，前面那个粗体是strong，听说b标签不标准？这我就不管了</b>所以我打算插个链接<a>你好呀！</a></p>
+    <p>莫名到下一段了，我就不写了</p><br />
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="还是华为的耶">
+    <ol>
+        <li>有序列表1</li>
+        <li>有序列表2</li>
+        <li>有序列表4（咦？是不是算错了？）</li>
+    </ol>
+    <h3>图片</h3>
+    <span>不用CSS的情况下图片咋缩进的呀？反正我只会用& nbsp;</span><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://res.vmallres.com/pimages/temp/product/201703030946303088782.jpg" alt="华为1">
+    <br><br><br /><span>第二个图片</span><br>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/Industry/mbb-2020/kenhu751.jpg?h=425&la=zh&w=751" alt="华为二">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h5>图片</h5>
+    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/sustainability/davos_cn.ashx" alt="">
+    <h2>终于到最后啦</h2>
+    <h2>标题</h2>
+    <span>SHINING</span><span>2017年03月18日</span> <br>
+    <ol>
+        <li>1位</li>
+        <li>2位</li>
+        <li>3位</li>
+    </ol>
+    <p>来个表格</p>
+    <table border="1">
+        <tr>
+            <td>首行</td>
+            <td>首行</td>
+            <td>首行</td>
+        </tr>
+        <tr>
+            <td>这是很长的内容！</td>
+            <td>这也是很长的内容！</td>
+            <td><a href="#">给点操作</a></td>
+        </tr>
+        <tr>
+            <td>这是很长的内容！</td>
+            <td>这也是很长的内容！</td>
+            <td><a href="#">给点操作</a></td>
+        </tr>
+        <tr>
+            <td>这是很长的内容！</td>
+            <td>这也是很长的内容！</td>
+            <td><a href="#">给点操作</a></td>
+        </tr>
+        <tr>
+            <td>要结束了哦</td>
+            <td colspan="2">结束了</td>
+        </tr>
+    </table>
+    <h2>侧栏什么的我就不要了吧</h2>
+    请输入邮箱地址：<input type="text" value="这是一个文本输入框"> <br>
+    邮箱地址请按要求格式输入 <br>
+    请输入密码：<input type="text" value="这是一个文本输入框">请重复输入密码：<input type="text" value="这是一个文本输入框"> <br>
+    密码请为6-16位英文数字 <br>
+    性别：<input type="radio" value="男">男 &nbsp;<input type="radio" value="女">女 &nbsp;城市：<select name="" id="">
+        <option value="">山东</option>
+        <option value="">济南</option>
+        <option value="">找蓝翔</option>
+    </select><input type="checkbox">运动 <input type="checkbox">艺术 <input type="checkbox">科学 &nbsp;个人描述：
+    <textarea cols="20" rows="2">这是一个多行描述，关于您的个人描述</textarea> <input type="submit">
+    <br>版权所有&copy;
+</body>
+</html>
