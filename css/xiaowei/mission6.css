@@ -1,0 +1,98 @@
+/*
+    通用样式
+*/
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.container {
+    width: 980px;
+    height: 1386px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 44px;
+}
+
+/*
+    头部
+*/
+.head {
+    width: 892px;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 2px solid #938e8c;
+    margin-bottom: 35px;
+}
+.head .left {
+    width: 110px;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 黑体 sans-serif;
+    color: #fff;
+    background-color: #d45c5b;
+}
+.head .right {
+    padding-top: 45px;
+    color: #d45c5b;
+    font-size: 12px;
+    font-family: 黑体 sans-serif;
+}
+
+/*
+    底部
+*/
+.foot {
+    width: 892px;
+    height: 61px;
+    border-top: 1px solid #938e8c;
+}
+.foot .right {
+    font-size: 12px;
+    font-family: 黑体 sans-serif;
+    color: #d45c5b;
+}
+
+/*
+    part_a
+*/
+.part_a {
+    clear: both;
+    overflow: hidden;
+}
+.part_a .a_img {
+    clear: both;
+    overflow: hidden;
+    width: 641px;
+    height: 301px;
+    background: url("../../images/mession6_a.png") no-repeat 0 0;
+}
+.part_a .a_img div {
+    width: 191px;
+    height: 301px;
+}
+.part_a .a_img .left {
+    background-color: rgba(74, 100, 76, .5);
+}
+.part_a .a_img .right {
+    background-color: rgba(230, 184, 183, .5);
+}
+.part_a .a_letter {
+    width: 203px;
+    border-top: 2px solid #cc8091;
+}
+/*.part_a .a_under:first-letter {
+    font-size: 24px;
+}*/
+.part_a .a_under {
+    font-family: 微软雅黑 sans-serif;
+    border-bottom: 1px solid #000000;
+    color: #000;
+    margin: 10px 0;
+}
+.part_a .a_under b {
+    font-size: 24px;
+}
