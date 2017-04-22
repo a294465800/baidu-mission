@@ -1,0 +1,53 @@
+.wrap {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    clear: both;
+    overflow: hidden;
+}
+.left {
+    float: left;
+    width: 158px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 20px;
+    vertical-align: top;
+    position: relative;
+}
+.left img {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #999;
+}
+.left span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+}
+.mid {
+    margin: 0 160px 0 240px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 0 25px;
+}
+.right {
+    float: right;
+    width: 118px;
+    border: 1px solid #999;
+}
+.right ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+.right ul li {
+    border: 1px solid #999;
+    width: 78px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+ .right ul li img {
+    width: 78px;
+    height: 78px;
+}
