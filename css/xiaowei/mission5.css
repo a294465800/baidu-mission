@@ -1,0 +1,175 @@
+.navigation {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+.navigation img {
+    width: 223px;
+    height: 100px;
+}
+.navigation ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li {
+    float: left;
+    line-height: 100px;
+    margin-right: 10px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.navigation ul li a:hover {
+    color: cornflowerblue;
+}
+.outer {
+    background-color: #ccc;
+    padding: 30px;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+.one {
+    float: left;
+    margin-right: 30px;
+    width: 70%;
+}
+.one img {
+    width: 100%;
+    height: 100%;
+}
+.two {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+/*
+    文章
+*/
+.first_p,
+.fist_img,
+.last {
+    background-color: #fff;
+    padding: 30px 25px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px #999;
+}
+.first_p h3 {
+    color: #999;
+}
+.first_p span{
+    color: #999;
+    margin-right: 20px;
+}
+.first_p p{
+    text-indent: 2em;
+}
+.first_p a {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.first_p ol {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+.fist_img h5 {
+    width: 220px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: -40px;
+}
+.fist_img img {
+    width: 200px;
+    height: 200px;
+    padding: 30px 10px 10px;
+    border: 2px solid #ccc;
+}
+
+/*
+    表格
+*/
+.first_table ol {
+    list-style: decimal;
+    padding-left: 50px;
+}
+.first_table table td {
+    width: 300px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.first_table table {
+    border-collapse: collapse;
+}
+.first_table thead {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.first_table tbody {
+    text-align: center;
+    vertical-align: center;
+}
+.first_table tfoot {
+    text-align: center;
+    color: #333;
+    background-color: #cccccc;
+}
+
+/*
+    表单
+*/
+.last h3 {
+    padding: 10px 20px;
+    border-left: 4px solid #ccc;
+    white-space: nowrap;
+}
+.last p {
+    color: #ccc;
+    text-align: center;
+}
+.last div {
+    width: 350px;
+    margin: 0 auto;
+}
+.last .intro_p {
+    clear: both;
+}
+.last .intro_p span,
+.last .intro_p label {
+    float: left;
+}
+.last span {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.foot {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+}
+.last button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
