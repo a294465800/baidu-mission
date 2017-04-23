@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*
+    通用样式
+*/
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.container {
+    width: 100%;
+    height: 55px;
+}
+
+/*
+    导航
+*/
+.navigation {
+    width: 1170px;
+    height: 55px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+.navigation h3 i {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url("../../images/mission7_sprit.png") no-repeat 0 -46px;
+    margin: 0 10px -7px 0;
+}
+.navigation h3 {
+    font: normal 21px/55px "黑体";
+    margin: 0;
+}
+.navigation .nav_bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation .nav_bar li {
+    float: left;
+    height: 50px;
+    width: 65px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.navigation .nav_bar li a {
+    text-decoration: none;
+    font: normal 14px/55px "微软雅黑";
+    color: rgb(158, 159, 163);
+}
+.navigation .nav_bar li:hover {
+    border-bottom: 5px solid #E74F4D;
+}
+.navigation .nav_bar li:hover a {
+    color: #E74F4D;
+}
+.navigation .nav_bar i {
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background: url("../../images/mission7_sprit.png") no-repeat -40px -60px;
+    margin: 0 5px -3px 0;
+}
+/*兼容*/
+.navigation .nav_bar >li+li+li+li+li+li {
+    margin: 0;
+}
+.navigation .nav_bar >li+li+li+li+li+li a {
+    color: #E74F4D;
+}
+.navigation .nav_bar >li+li+li+li+li+li:hover {
+    border: none;
+}
+.bg_img {
+    width: 100%;
+    height: 854px;
+    background-color: #fff;
+}
+.bg_img .img_father {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.bg_img img {
+    display: block;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+.bg_img .bg_btn {
+    display: block;
+    position: absolute;
+    width: 331px;
+    height: 65px;
+    top: 435px;
+    left: 125px;
+    background-color: #E74F4D;
+    color: #fff;
+    font: normal 30px/65px "微软雅黑";
+    text-align: center;
+    text-decoration: none;
+}
+.bg_img .bg_foot {
+    width: 100%;
+    min-width: 1170px;
+    height: 250px;
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    background-color: #fff;
+}
+.bg_img .bg_foot .bg_foot_content {
+    width: 1170px;
+    margin: 0 auto;
+    height: 250px;
+}
+.bg_img .bg_foot .bg_foot_content ul {
+    list-style: none;
+    margin: 0;
+    padding: 100px 0;
+    clear: both;
+    overflow: hidden;
+}
+.bg_img .bg_foot .bg_foot_content ul li {
+    width: 25%;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 2px solid #aaa;
+    float: left;
+    position: relative;
+    padding: 10px 68px;
+    font: normal 14px "黑体";
+    text-align: center;
+    color: #767677;
+    *width: 155px;
+    *height: 30px;
+}
+.bg_img .bg_foot .bg_foot_content ul .first_child {
+    border: none;
+}
+.bg_img .bg_foot .bg_foot_content i {
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: url("../../images/mission7_sprit.png") no-repeat 0 0;
+    top: -60px;
+    left: 50%;
+    margin-left: -21px;
+}
+.bg_img .bg_foot .bg_foot_content ul>li+li i {
+    background: url("../../images/mission7_sprit.png") no-repeat -42px 0;
+}
+.bg_img .bg_foot .bg_foot_content ul >li+li+li i {
+    background: url("../../images/mission7_sprit.png") no-repeat -85px 0;
+}
+.bg_img .bg_foot .bg_foot_content ul >li+li+li+li i {
+    background: url("../../images/mission7_sprit.png") no-repeat -125px 0;
+}
