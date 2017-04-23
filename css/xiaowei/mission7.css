@@ -132,7 +132,7 @@ body {
     overflow: hidden;
 }
 .bg_img .bg_foot .bg_foot_content ul li {
-    width: 25%;
+    width: 25%!important;
     height: 50px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -144,8 +144,9 @@ body {
     font: normal 14px "黑体";
     text-align: center;
     color: #767677;
-    *width: 155px;
-    *height: 30px;
+    *width: 155px!important;
+    *height: 30px!important;
+    width:292px;
 }
 .bg_img .bg_foot .bg_foot_content ul .first_child {
     border: none;
@@ -168,4 +169,80 @@ body {
 }
 .bg_img .bg_foot .bg_foot_content ul >li+li+li+li i {
     background: url("../../images/mission7_sprit.png") no-repeat -125px 0;
+}
+
+/*
+    灰色条
+*/
+.gray {
+    width: 100%;
+    height: 350px;
+    background-color: #EDECEC;
+    margin: 125px 0 0;
+}
+.gray .gray_content {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 78px 0 79px;
+}
+.gray .gray_content i {
+    display: block;
+    width: 92px;
+    height: 92px;
+    margin: 0 auto;
+    background: url("../../images/mission7_sprit.png") no-repeat 0 -83px;
+}
+.gray .gray_content h3 {
+    text-align: center;
+    font: normal 54px "黑体";
+    opacity: 0.5;
+    filter: alpha(50);
+    margin: 30px 0 0;
+}
+
+/*
+    城市
+*/
+.city {
+    width: 1280px;
+    height: 340px;
+    margin: 0 auto;
+    background: url("../../images/mission7_city.jpg") no-repeat 0 0;
+    position: relative;
+}
+.city .city_shade {
+    width: 1280px;
+    height: 340px;
+    position: absolute;
+    background: rgba(170, 52, 50, .2);
+    top: 0;
+    left: 0;
+}
+.city .city_form {
+    position: absolute;
+}
+select::-ms-expand {
+    display: none;
+}
+.city .city_form select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+.city .city_form select,
+.city .city_form option {
+    display: inline-block;
+    width: 236px;
+    height: 36px;
 }

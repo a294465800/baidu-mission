@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <title>任务七：实现常见的技术产品官网的页面架构及样式布局</title>
     <link rel="stylesheet" href="../css/xiaowei/mission7.css">
+    <!--[if lt IE 9]>
+    <script>
+        (function() {
+            if (!/*@cc_on!@*/0) return;
+            var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+            var i= e.length;
+            while (i--){
+                document.createElement(e[i])
+            }
+        })()
+    </script>
+    <![endif]-->
 </head>
 <body>
     <nav class="container">
@@ -19,7 +31,7 @@
             </ul>
         </div>
     </nav>
-    <div class="bg_img">
+    <section class="bg_img">
         <div class="img_father">
             <img src="../images/mission7_navhead.png" alt="Time of new life">
             <a href="" class="bg_btn">开始体验</a>
@@ -34,6 +46,27 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="gray">
+        <div class="gray_content">
+            <i></i>
+            <h3>关于新世界，你不知道的还有什么？</h3>
+        </div>
+    </section>
+    <section class="city">
+        <div class="city_shade"></div>
+        <form action="" class="city_form">
+            <select name="country" id="country">
+                <option value="" selected>中国</option>
+            </select>
+            <select name="province" id="province">
+                <option value="" selected>省份</option>
+            </select>
+            <select name="city" id="city">
+                <option value="" selected>城市</option>
+            </select>
+            <button type="submit">搜索</button>
+        </form>
+    </section>
 </body>
 </html>
