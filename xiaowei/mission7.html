@@ -55,18 +55,24 @@
     </section>
     <section class="city">
         <div class="city_shade"></div>
-        <form action="" class="city_form">
-            <select name="country" id="country">
-                <option value="" selected>中国</option>
-            </select>
-            <select name="province" id="province">
-                <option value="" selected>省份</option>
-            </select>
-            <select name="city" id="city">
-                <option value="" selected>城市</option>
-            </select>
-            <button type="submit">搜索</button>
-        </form>
+        <div class="city_form">
+            <ul>
+                <li><span>中国</span><i></i></li>
+                <li>
+                    <span>省份</span><i></i>
+                    <div class="province">
+                        <a>北京市</a>
+                        <a>天津市</a>
+                        <a>河北省</a>
+                        <a>陕西省</a>
+                        <a>内蒙古自治区</a>
+                        <a>辽宁省</a>
+                    </div>
+                </li>
+                <li><span>城市</span><i></i></li>
+                <li id="city_btn">搜索</li>
+            </ul>
+        </div>
     </section>
 </body>
 </html>

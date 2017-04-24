@@ -210,6 +210,7 @@ body {
     margin: 0 auto;
     background: url("../../images/mission7_city.jpg") no-repeat 0 0;
     position: relative;
+    text-align: center;
 }
 .city .city_shade {
     width: 1280px;
@@ -220,29 +221,51 @@ body {
     left: 0;
 }
 .city .city_form {
-    position: absolute;
-}
-select::-ms-expand {
-    display: none;
-}
-.city .city_form select {
-    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
-    border: solid 1px #000;
-
-    /*很关键：将默认的select选择框样式清除*/
-    -moz-appearance:none;
-    -webkit-appearance:none;
-    appearance:none;
-
-    /*在选择框的最右侧中间显示小箭头图片*/
-    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
-
-    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
-    padding-right: 14px;
-}
-.city .city_form select,
-.city .city_form option {
     display: inline-block;
+    padding: 152px 0;
+}
+.city .city_form ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+.city .city_form ul li {
     width: 236px;
     height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #BE4E48;
+    text-align: left;
+    line-height: 34px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 20px;
+}
+.city .city_form ul li span {
+    font: normal 12px "微软雅黑";
+    color: #A8A9AA;
+    padding-left: 10px;
+}
+.city .city_form ul li i {
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url("../../images/mission7_sprit.png") no-repeat -147px -157px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.city .city_form ul #city_btn {
+    margin: 0;
+    border: none;
+    background-color: #BE4E48;
+    font: normal 14px "微软雅黑";
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
 }
