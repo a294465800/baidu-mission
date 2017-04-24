@@ -595,9 +595,166 @@ body {
     display: block;
 }
 
-    /*
-        底部
-    */
+/*
+    志愿申请
+*/
+.apply_volunteer {
+    display: block;
+    width: 100%;
+    height: 750px;
+    background-color: #fff;
+    *text-align: center;
+}
+.apply_volunteer .apply_content {
+    width: 1280px;
+    height: 750px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 115px;
+    *height: 635px;
+}
+.apply_volunteer .apply_content .apply_head {
+    text-align: center;
+}
+.apply_volunteer .apply_content .apply_head h3 {
+    font: normal 21px/1.4em "黑体";
+    margin: 0;
+    *margin-bottom: 15px;
+}
+.apply_volunteer .apply_content .apply_head i {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 31px;
+    height: 2px;
+    background-color: #E7504D;
+    overflow: hidden;
+}
+.apply_volunteer .apply_content .apply_head p {
+    font: normal 12px/1.5em "微软雅黑";
+    color: #999;
+    width: 424px;
+    margin: 0 auto;
+}
+.apply_volunteer .apply_content .apply_foot {
+    padding-top: 100px;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution {
+    width: 320px;
+    margin-left: 130px;
+    clear: both;
+    overflow: hidden;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution .caution_content {
+    height: 115px;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution .caution_content h3 {
+    font: normal 14px/1.2em "黑体";
+    margin: 0 0 20px;
+    color: #666;
+    text-align: left;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution .caution_content p {
+    font: normal 12px/1.4em "黑体";
+    color: #999;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution .caution_content span {
+    float: right;
+    font: normal 12px "宋体";
+    color: #999;
+    cursor: pointer;
+    position: relative;
+}
+.apply_volunteer .apply_content .apply_foot .apply_caution .caution_content span i {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    position: absolute;
+    height: 6px;
+    width: 10px;
+    top: 3px;
+    left: -18px;
+    background: url("../../images/mission7_sprit.png") no-repeat -129px -167px;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form {
+    width: 641px;
+    height: 345px;
+    margin-right: 140px;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form .apply_form_c {
+    position: relative;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 310px;
+    height: 41px;
+    margin: 0 16px 15px 0;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form span {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 60px;
+    height: 41px;
+    background-color: #EDEDEF;
+    font: normal 12px "微软雅黑";
+    line-height: 41px;
+    color: #221814;
+    padding-left: 15px;
+    _width: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form input {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 235px;
+    height: 41px;
+    outline: none;
+    padding: 0;
+    border: 0;
+    background-color: #EDEDEF;
+    line-height: 41px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form .apply_none {
+    margin: 0 0 15px 0;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form textarea {
+    resize: none;
+    background-color: #EDEDEF;
+    height: 120px;
+    width: 601px;
+    border: 0;
+    outline: none;
+    font: normal 12px/20px "微软雅黑";
+    color: #221814;
+    padding: 10px 20px;
+    overflow: hidden;
+    _width: 641px;
+}
+.apply_volunteer .apply_content .apply_foot .apply_form button {
+    font: normal 14px/41px "黑体";
+    color: #000;
+    width: 100%;
+    height: 41px;
+    background-color: #EDEDEF;
+    padding: 0;
+    margin: 10px 0 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*
+    底部
+*/
 .footer {
     width: 100%;
     height: 378px;
