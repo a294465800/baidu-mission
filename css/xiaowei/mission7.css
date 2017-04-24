@@ -229,7 +229,6 @@ body {
     margin: 0 auto;
     padding: 0;
     clear: both;
-    overflow: hidden;
 }
 .city .city_form ul li {
     width: 236px;
@@ -268,4 +267,40 @@ body {
     text-align: center;
     line-height: 36px;
     cursor: pointer;
+}
+.city .city_form .city_list {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #E3E3E4;
+    width: 234px;
+    overflow: hidden;
+    display: none;
+}
+.city .city_form .city_list a {
+    display: block;
+    width: 234px;
+    height: 30px;
+    text-align: left;
+    padding-left: 25px;
+    font: normal 12px "微软雅黑";
+    color: #323232;
+    line-height: 30px;
+    position: relative;
+    cursor: default;
+}
+.city .city_form .city_list a:hover {
+    color: #fff;
+    background-color: #BE4E48;
+}
+.city .city_form .city_list a i {
+    left: 1px;
+    top: 6px;
+    display: none;
+}
+.city .city_form .city_list a:hover i {
+    display: block;
+}
+.city .city_form ul li:hover .city_list {
+    display: block;
 }
