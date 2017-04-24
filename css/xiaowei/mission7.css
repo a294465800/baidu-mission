@@ -323,3 +323,84 @@ body {
 .city .city_form ul li:hover .city_list {
     display: block;
 }
+
+/*
+    活动
+*/
+.activity {
+    width: 100%;
+    height: 600px;
+    display: block;
+    *text-align: center;
+    background-color: #F7F7F7;
+}
+.activity .activity_content {
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 84px 0 83px;
+}
+.activity .activity_content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.activity .activity_content ul li {
+    float: left;
+    margin-right: 40px;
+}
+.activity .activity_content ul li h3 {
+    font: normal 14px/35px "黑体";
+    margin: 0;
+}
+.activity .activity_content ul li p {
+    font: normal 12px/20px "黑体";
+    color: #A8A9AA;
+    margin: 0;
+}
+.activity .activity_content ul .activity_s h3 {
+    font: normal 24px "黑体";
+    text-align: justify;
+    width: 203px;
+    height: 27px;
+    padding: 0 11px;
+    *text-align: center;
+}
+.activity .activity_content ul .activity_s h3:after {
+    display: inline-block;
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+}
+.activity .activity_content ul .activity_l {
+    margin: 0;
+}
+.activity .activity_content ul li div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.activity .activity_content ul li div i{
+    display: block;
+    width: 203px;
+    height: 311px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("../../images/mission7_avtivity.png") no-repeat -9px -11px;
+}
+.activity .activity_content ul>li+li div i {
+    background: url("../../images/mission7_avtivity.png") no-repeat -9px -331px;
+}
+.activity .activity_content ul>li+li+li div i {
+    background: url("../../images/mission7_avtivity.png") no-repeat -10px -652px;
+}
+.activity .activity_content ul>li+li+li+li div i {
+    background: url("../../images/mission7_avtivity.png") no-repeat -10px -973px;
+}
