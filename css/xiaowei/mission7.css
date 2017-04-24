@@ -14,8 +14,10 @@ body {
 }
 
 .container {
+    display: block;
     width: 100%;
     height: 55px;
+    *text-align: center;
 }
 
 /*
@@ -84,6 +86,7 @@ body {
     width: 100%;
     height: 854px;
     background-color: #fff;
+    *text-align: center;
 }
 .bg_img .img_father {
     width: 1280px;
@@ -177,13 +180,16 @@ body {
 .gray {
     width: 100%;
     height: 350px;
+    display: block;
     background-color: #EDECEC;
     margin: 125px 0 0;
+    *text-align: center;
 }
 .gray .gray_content {
     width: 1170px;
     height: 100%;
     margin: 0 auto;
+    *text-align: center;
     padding: 78px 0 79px;
 }
 .gray .gray_content i {
@@ -191,6 +197,7 @@ body {
     width: 92px;
     height: 92px;
     margin: 0 auto;
+    *text-align: center;
     background: url("../../images/mission7_sprit.png") no-repeat 0 -83px;
 }
 .gray .gray_content h3 {
@@ -204,10 +211,16 @@ body {
 /*
     城市
 */
+.city_father {
+    width: 100%;
+    *text-align: center;
+}
 .city {
+    display: block;
     width: 1280px;
     height: 340px;
     margin: 0 auto;
+    *text-align: center;
     background: url("../../images/mission7_city.jpg") no-repeat 0 0;
     position: relative;
     text-align: center;
@@ -217,12 +230,15 @@ body {
     height: 340px;
     position: absolute;
     background: rgba(170, 52, 50, .2);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33AA3432,endColorstr=#33AA3432);
     top: 0;
     left: 0;
 }
 .city .city_form {
     display: inline-block;
     padding: 152px 0;
+    *zoom: 1;
+    *display: inline;
 }
 .city .city_form ul {
     list-style: none;
@@ -257,6 +273,8 @@ body {
     position: absolute;
     right: 8px;
     top: 8px;
+    *zoom: 1;
+    *display: inline;
 }
 .city .city_form ul #city_btn {
     margin: 0;
@@ -276,6 +294,7 @@ body {
     width: 234px;
     overflow: hidden;
     display: none;
+    *top: 37px;
 }
 .city .city_form .city_list a {
     display: block;
