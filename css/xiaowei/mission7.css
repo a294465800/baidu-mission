@@ -494,3 +494,109 @@ body {
 .newWorld .newWorld_content .right ul .newWorld_mid {
     margin: 0 10px;
 }
+
+/*
+    底部
+*/
+.footer {
+    width: 100%;
+    height: 378px;
+    background-color: #32353E;
+    position: relative;
+    display: block;
+    padding-top: 37px;
+}
+.footer .footer_top {
+    text-align: center;
+    color: #fff;
+    height: 281px;
+}
+.footer .footer_top h3 {
+    font: normal 21px "黑体";
+}
+.footer .footer_top p {
+    width: 472px;
+    font: normal 12px/1.5em "宋体";
+    margin: 0 auto 30px;
+}
+.footer .footer_top form {
+    height: 41px;
+}
+.footer .footer_top input,
+.footer .footer_top button {
+    display: inline-block;
+    width: 421px;
+    height: 41px;
+    *zoom: 1;
+    *display: inline;
+    border: 0;
+    padding: 0 0 0 10px;
+    margin: 0;
+    font: normal 14px/41px "微软雅黑";
+    outline: none;
+}
+.footer .footer_top button {
+    width: 81px;
+    height: 41px;
+    font-size: 15px;
+    line-height: 41px;
+    background-color: #6F7178;
+    color: #fff;
+    padding: 0;
+    cursor: pointer;
+}
+.footer .footer_top .footer_icon {
+    list-style: none;
+    margin: 0;
+    padding: 50px 0;
+}
+.footer .footer_top .footer_icon li {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 29px;
+    height: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: url("../../images/mission7_sprit.png") no-repeat -139px -97px;
+}
+.footer .footer_top .footer_icon .icon_2 {
+    background: url("../../images/mission7_sprit.png") no-repeat -135px -72px;
+}
+.footer .footer_top .footer_icon .icon_3 {
+    background: url("../../images/mission7_sprit.png") no-repeat -134px -47px;
+}
+.footer .footer_top .footer_icon .icon_4 {
+    background: url("../../images/mission7_sprit.png") no-repeat -139px -122px;
+}
+
+.footer .footer_foot {
+    background-color: #303039;
+    *text-align: center;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer .footer_foot div {
+    width: 1280px;
+    height: 60px;
+    margin: 0 auto;
+}
+.footer .footer_foot div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+.footer .footer_foot div ul li {
+    display: inline-block;
+    color: #fff;
+    font: normal 14px/60px "黑体";
+}
+.footer .footer_foot div ul li a {
+    text-decoration: none;
+    color: #fff;
+}
