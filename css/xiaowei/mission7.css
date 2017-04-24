@@ -404,3 +404,93 @@ body {
 .activity .activity_content ul>li+li+li+li div i {
     background: url("../../images/mission7_avtivity.png") no-repeat -10px -973px;
 }
+
+/*
+    新世界
+*/
+.newWorld {
+    width: 100%;
+    height: 567px;
+    background-color: #fff;
+    *text-align: center;
+    display: block;
+}
+.newWorld .newWorld_content {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+.newWorld .newWorld_content .left {
+    width: 850px;
+    height: 100%;
+    background: url("../../images/mission7_newWorld.jpg") no-repeat 0 0;
+}
+.newWorld .newWorld_content .right {
+    width: 430px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 144px 0 145px;
+    *height: 278px;
+}
+.newWorld .newWorld_content .right .right_content {
+    width: 290px;
+    margin: 0 auto;
+}
+.newWorld .newWorld_content .right h3 {
+    font: normal 20px/30px "黑体";
+    margin: 0 0 20px 0;
+}
+.newWorld .newWorld_content .right h3 span {
+    color: #E74F4D;
+}
+.newWorld .newWorld_content .right p {
+    font: normal 12px/28px "黑体";
+    margin: 0 0 40px 0;
+    text-align: left;
+    color: #999;
+}
+.newWorld .newWorld_content .right a {
+    text-decoration: none;
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    background-color: #fff;
+    font: normal 14px "黑体";
+    color: #BE4E48;
+    border: 1px solid #BE4E48;
+    line-height: 33px;
+    *zoom: 1;
+    *display: inline;
+}
+.newWorld .newWorld_content .right a:hover {
+    color: #fff;
+    background-color: #BE4E48;
+}
+.newWorld .newWorld_content .right ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+.newWorld .newWorld_content .right ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    background-color: #999;
+    display: inline-block;
+    cursor: pointer;
+    *zoom: 1;
+    *display: inline;
+}
+.newWorld .newWorld_content .right ul>li+li {
+    background-color: #fff;
+}
+.newWorld .newWorld_content .right ul .newWorld_mid {
+    margin: 0 10px;
+}
