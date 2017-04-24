@@ -496,8 +496,108 @@ body {
 }
 
 /*
-    底部
+    新时代
 */
+.newTime {
+    display: block;
+    width: 100%;
+    height: 521px;
+    background-color: #fff;
+    *text-align: center;
+}
+.newTime .newTime_content {
+    margin: 0 auto;
+    width: 1280px;
+    height: 521px;
+}
+.newTime .newTime_content .newTime_div {
+    float: left;
+    width: 425px;
+    height: 521px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 185px 0;
+    *height: 151px;
+}
+.newTime .newTime_content .newTime_1 {
+    background-color: #E7504D;
+}
+.newTime .newTime_content .newTime_1 h3,
+.newTime .newTime_content .newTime_1 p{
+    font: normal 21px/1.4em "黑体";
+    margin: 0;
+    color: #fff;
+}
+.newTime .newTime_content .newTime_1 .newTime_cover div {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 31px;
+    height: 2px;
+    background-color: #fff;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.newTime .newTime_content .newTime_1 a {
+    display: block;
+    width: 170px;
+    height: 45px;
+    border: 1px solid #fff;
+    font: normal 21px "黑体";
+    line-height: 45px;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+}
+.newTime .newTime_content .newTime_1 a:hover {
+    border: 1px solid #E7504D;
+    background-color: #fff;
+    color: #E7504D;
+}
+.newTime .newTime_content .newTime_2 {
+    background-color: #fff;
+}
+.newTime .newTime_content .newTime_2 h3,
+.newTime .newTime_content .newTime_2 p{
+    color: #333;
+}
+.newTime .newTime_content .newTime_2 .newTime_cover div {
+    background-color: #999;
+}
+.newTime .newTime_content .newTime_2 a {
+    border: 1px solid #E7504D;
+    color: #E7504D;
+}
+.newTime .newTime_content .newTime_2 a:hover {
+    background-color: #E7504D;
+    color: #fff;
+}
+.newTime .newTime_content .newTime_img {
+    position: relative;
+    width: 430px;
+    height: 521px;
+    border: none;
+    background: url("../../images/mission7_newTime.jpg") no-repeat 0 0;
+}
+.newTime .newTime_content .newTime_img .newTime_shade {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 0, 0, .4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66030000,endColorstr=#66030000);
+    top: 0;
+    left: 0;
+}
+.newTime .newTime_content .newTime_img:hover .newTime_shade {
+    display: block;
+}
+
+    /*
+        底部
+    */
 .footer {
     width: 100%;
     height: 378px;
@@ -569,7 +669,6 @@ body {
 .footer .footer_top .footer_icon .icon_4 {
     background: url("../../images/mission7_sprit.png") no-repeat -139px -122px;
 }
-
 .footer .footer_foot {
     background-color: #303039;
     *text-align: center;
