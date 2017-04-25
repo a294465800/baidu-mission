@@ -34,7 +34,7 @@ body {
     display: inline-block;
     width: 31px;
     height: 31px;
-    background: url("../../images/mission7_sprit.png") no-repeat 0 -46px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat 0 -46px;
     margin: 0 10px -7px 0;
 }
 .navigation h3 {
@@ -69,7 +69,7 @@ body {
     display: inline-block;
     width: 14px;
     height: 17px;
-    background: url("../../images/mission7_sprit.png") no-repeat -40px -60px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -40px -60px;
     margin: 0 5px -3px 0;
 }
 /*兼容*/
@@ -159,19 +159,19 @@ body {
     position: absolute;
     width: 42px;
     height: 42px;
-    background: url("../../images/mission7_sprit.png") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat 0 0;
     top: -60px;
     left: 50%;
     margin-left: -21px;
 }
 .bg_img .bg_foot .bg_foot_content ul>li+li i {
-    background: url("../../images/mission7_sprit.png") no-repeat -42px 0;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -42px 0;
 }
 .bg_img .bg_foot .bg_foot_content ul >li+li+li i {
-    background: url("../../images/mission7_sprit.png") no-repeat -85px 0;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -85px 0;
 }
 .bg_img .bg_foot .bg_foot_content ul >li+li+li+li i {
-    background: url("../../images/mission7_sprit.png") no-repeat -125px 0;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -125px 0;
 }
 
 /*
@@ -198,7 +198,7 @@ body {
     height: 92px;
     margin: 0 auto;
     *text-align: center;
-    background: url("../../images/mission7_sprit.png") no-repeat 0 -83px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat 0 -83px;
 }
 .gray .gray_content h3 {
     text-align: center;
@@ -221,7 +221,7 @@ body {
     height: 340px;
     margin: 0 auto;
     *text-align: center;
-    background: url("../../images/mission7_city.jpg") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission7_city.jpg") no-repeat 0 0;
     position: relative;
     text-align: center;
 }
@@ -269,7 +269,7 @@ body {
     display: inline-block;
     width: 19px;
     height: 18px;
-    background: url("../../images/mission7_sprit.png") no-repeat -147px -157px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -147px -157px;
     position: absolute;
     right: 8px;
     top: 8px;
@@ -393,16 +393,16 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url("../../images/mission7_avtivity.png") no-repeat -9px -11px;
+    background: url("../../images/xiaowei/mission7_avtivity.png") no-repeat -9px -11px;
 }
 .activity .activity_content ul>li+li div i {
-    background: url("../../images/mission7_avtivity.png") no-repeat -9px -331px;
+    background: url("../../images/xiaowei/mission7_avtivity.png") no-repeat -9px -331px;
 }
 .activity .activity_content ul>li+li+li div i {
-    background: url("../../images/mission7_avtivity.png") no-repeat -10px -652px;
+    background: url("../../images/xiaowei/mission7_avtivity.png") no-repeat -10px -652px;
 }
 .activity .activity_content ul>li+li+li+li div i {
-    background: url("../../images/mission7_avtivity.png") no-repeat -10px -973px;
+    background: url("../../images/xiaowei/mission7_avtivity.png") no-repeat -10px -973px;
 }
 
 /*
@@ -424,7 +424,7 @@ body {
 .newWorld .newWorld_content .left {
     width: 850px;
     height: 100%;
-    background: url("../../images/mission7_newWorld.jpg") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission7_newWorld.jpg") no-repeat 0 0;
 }
 .newWorld .newWorld_content .right {
     width: 430px;
@@ -579,7 +579,7 @@ body {
     width: 430px;
     height: 521px;
     border: none;
-    background: url("../../images/mission7_newTime.jpg") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission7_newTime.jpg") no-repeat 0 0;
 }
 .newTime .newTime_content .newTime_img .newTime_shade {
     display: none;
@@ -676,7 +676,7 @@ body {
     width: 10px;
     top: 3px;
     left: -18px;
-    background: url("../../images/mission7_sprit.png") no-repeat -129px -167px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -129px -167px;
 }
 .apply_volunteer .apply_content .apply_foot .apply_form {
     width: 641px;
@@ -815,16 +815,16 @@ body {
     height: 25px;
     margin-right: 20px;
     cursor: pointer;
-    background: url("../../images/mission7_sprit.png") no-repeat -139px -97px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -139px -97px;
 }
 .footer .footer_top .footer_icon .icon_2 {
-    background: url("../../images/mission7_sprit.png") no-repeat -135px -72px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -135px -72px;
 }
 .footer .footer_top .footer_icon .icon_3 {
-    background: url("../../images/mission7_sprit.png") no-repeat -134px -47px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -134px -47px;
 }
 .footer .footer_top .footer_icon .icon_4 {
-    background: url("../../images/mission7_sprit.png") no-repeat -139px -122px;
+    background: url("../../images/xiaowei/mission7_sprit.png") no-repeat -139px -122px;
 }
 .footer .footer_foot {
     background-color: #303039;

@@ -69,7 +69,7 @@
     overflow: hidden;
     width: 641px;
     height: 301px;
-    background: url("../../images/mession6_a.png") no-repeat 0 0;
+    background: url("../../images/xiaowei/mession6_a.png") no-repeat 0 0;
 }
 .part_a .a_img div {
     width: 191px;
@@ -233,7 +233,7 @@
     position: relative;
     width: 458px;
     height: 257px;
-    background: url("../../images/mission6_c.png") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission6_c.png") no-repeat 0 0;
 }
 .part_c .right_c .img_cs {
     position: absolute;
@@ -273,7 +273,7 @@
     display: inline-block;
     width: 10px;
     height: 9px;
-    background: url("../../images/mission6_d.png") no-repeat 0 0;
+    background: url("../../images/xiaowei/mission6_d.png") no-repeat 0 0;
     margin-right: 10px;
 }
 .part_c .category_c .top_c .l_c {
