@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+.input_form {
+    display: inline-block;
+    margin-top: 50px;
+    *zoom: 1;
+    *display: inline;
+}
+.input_form label {
+    font: normal 18px "微软雅黑";
+}
+.input_form input {
+    border: 0;
+    outline: none;
+    background-color: #ccc;
+    height: 25px;
+    padding: 0 0 0 20px;
+    margin: 0;
+    font: normal 14px/25px "微软雅黑";
+}
+.input_form button {
+    border: 0;
+    outline: none;
+    background-color: #0099FF;
+    padding: 0 15px;
+    margin: 0 0 0 20px;
+    height: 25px;
+    font: normal 16px/25px "微软雅黑";
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.show ul {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    list-style: none;
+    margin: 40px 0 0 ;
+    padding: 0;
+}
+.show ul li {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin: 0 0 20px 20px;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #0099FF;
+    font: normal 18px/50px "微软雅黑";
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
