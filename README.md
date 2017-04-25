@@ -15,3 +15,4 @@
 1. 任务一 binbin/mission1.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission1.html)
 2. 任务二 binbin/mission2.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission2.html)
 3. 任务三 binbin/mission3.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission3.html)
+4. 任务四 binbin/mission4.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission4.html)
