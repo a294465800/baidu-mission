@@ -135,7 +135,11 @@ window.onload = function () {
 		}
 	}
 
+	/*
+	* 主函数
+	* */
 	function run() {
+		//左入事件绑定
 		left_in.onclick = function () {
 			addData = judgeNum();
 			if(addData){
@@ -144,11 +148,13 @@ window.onload = function () {
 			all_data.value = '';
 		};
 
+		//左出事件绑定
 		left_out.onclick = function () {
 			leftOut();
 			all_data.value = '';
 		};
 
+		//右入事件绑定
 		right_in.onclick = function () {
 			addData = judgeNum();
 			if(addData){
@@ -157,11 +163,13 @@ window.onload = function () {
 			}
 		};
 
+		//右出事件绑定
 		right_out.onclick = function () {
 			rightOut(addData);
 			all_data.value = '';
 		};
 
+		//搜索事件绑定
 		search.onclick = function () {
 			searchData();
 		}
