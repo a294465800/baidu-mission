@@ -16,3 +16,4 @@
 2. 任务二：零基础JavaScript编码（二） binbin/mission2.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission2.html)
 3. 任务三：零基础JavaScript编码（三） binbin/mission3.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission3.html)
 4. 任务四：基础JavaScript练习（一） binbin/mission4.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission4.html)
+5. 任务五：基础JavaScript练习（二） binbin/mission5.html [现在访问](https://a294465800.github.io/baidu-mission/binbin/mission5.html)
