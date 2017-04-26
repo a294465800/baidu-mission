@@ -4,13 +4,15 @@ body {
 }
 div {
     display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
     background-color: #fff;
+    _text-align: center;
 }
 .root {
-    flex-direction: row;
-    justify-content: space-around;
     border: 2px solid #333;
     margin: 100px auto 0;
     width: 1000px;
@@ -21,6 +23,7 @@ div {
     width: 45%;
     height: 70%;
     border: 2px solid #333;
+    -webkit-align-self: center;
     align-self: center;
 }
 .second_l,
@@ -28,6 +31,7 @@ div {
     width: 40%;
     height: 50%;
     border: 2px solid #333;
+    -webkit-align-self: center;
     align-self: center;
 }
 .third_l,
@@ -35,6 +39,7 @@ div {
     width: 40%;
     height: 40%;
     border: 2px solid #333;
+    -webkit-align-self: center;
     align-self: center;
 }
 .button {
@@ -43,7 +48,10 @@ div {
 }
 button {
     display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
     width: 120px;
     height: 50px;

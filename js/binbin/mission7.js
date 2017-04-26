@@ -121,6 +121,9 @@ window.onload = function () {
 		//重置按钮
 		reset.onclick = function () {
 			flag = 0;
+			first.style.color = '#fff';
+			mid.style.color = '#fff';
+			end.style.color = '#fff';
 			clearInterval(time);
 			root.style.backgroundColor = '#fff';
 			for(var i = 0;i < length; i++){
