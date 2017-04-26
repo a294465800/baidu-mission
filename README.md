@@ -9,6 +9,7 @@
 5. 任务五：零基础HTML及CSS编码（二） xiaowei/mission5.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission5.html)
 6. 任务六：通过HTML及CSS模拟报纸排版 xiaowei/mission6.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission6.html)
 7. 任务七：实现常见的技术产品官网的页面架构及样式布局 xiaowei/mission7.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission7.html)
+10. 任务十：Flexbox 布局练习 binbin/mission10.html [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission10.html)
 
 斌斌学院
 -----------
