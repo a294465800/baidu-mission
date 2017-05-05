@@ -2,6 +2,7 @@
 # 2017百度前端学院任务完成情况
 小薇学院
 ---------------
+##### 任务六开始兼容ie6以上
 1. 任务一：零基础HTML编码 xiaowei/mission1.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission1.html)
 2. 任务二：零基础HTML及CSS编码（一） xiaowei/mission2.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission2.html)
 3. 任务三：三栏式布局 xiaowei/mission3.html  [现在访问](https://a294465800.github.io/baidu-mission/xiaowei/mission3.html)
